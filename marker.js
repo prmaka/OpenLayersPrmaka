@@ -1,5 +1,5 @@
 // Centralna pozicija
-var oCenter = ol.proj.fromLonLat([15.977775, 45812804]);
+var oCenter = ol.proj.fromLonLat([15.977775, 45.812804]);
 var oView = new ol.View({
 	  center: oCenter,
 	  zoom: 8
@@ -7,7 +7,7 @@ var oView = new ol.View({
 
 var markerIcon = new ol.Feature({
   geometry: new ol.geom.Point(oCenter),
-  name: 'Predrag Makaj',
+  name: 'Trg bana Josipa Jelačića',
   population: 4000,
   rainfall: 500
 });
