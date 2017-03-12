@@ -1,5 +1,5 @@
 // Centralna pozicija
-var oCenter = ol.proj.fromLonLat([16.374681, 46.292180]);
+var oCenter = ol.proj.fromLonLat([15.977775, 45812804]);
 var oView = new ol.View({
 	  center: oCenter,
 	  zoom: 8
